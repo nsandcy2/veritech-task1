@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Team</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #6A1B9A;
+        }
+
+        header p {
+            margin: 20px 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .team-section {
+            margin-top: 40px;
+        }
+
+        .team-section h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #6A1B9A;
+            margin-bottom: 30px;
+        }
+
+        .team-category {
+            margin-bottom: 50px;
+        }
+
+        .team-category h3 {
+            font-size: 1.5em;
+            color: #6A1B9A;
+            margin-bottom: 20px;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .team-member {
+            text-align: center;
+            flex: 1 1 200px;
+            max-width: 200px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            border: 2px solid #6A1B9A;
+        }
+
+        .team-member p {
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .team-member p.title {
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .team-member {
+                flex: 1 1 45%;
+                max-width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .team-member {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .team-section h2,
+            .team-category h3 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Company Name</h1>
+            <p>Welcome to Veri Tech Software IT Services, where a dedicated team of professionals works together to
+                bring
+                innovation, creativity, and expertise to the software industry. Get to know the individuals who make our
+                company thrive.</p>
+        </header>
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+
+            <div class="team-category">
+                <h3>Leadership / Management Team</h3>
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="Management.jpg" alt="Founder">
+                        <p class="title">[Founder Name]</p>
+                        <p>Founder / CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Management.jpg" alt="Founder">
+                        <p class="title">[Founder Name]</p>
+                        <p>Founder / CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Management.jpg" alt="VP">
+                        <p class="title">[VP Name]</p>
+                        <p>VP, Development & Growth</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Management.jpg" alt="VP">
+                        <p class="title">[VP Name]</p>
+                        <p>VP, Sales & Marketing</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Management.jpg" alt="VP">
+                        <p class="title">[VP Name]</p>
+                        <p>VP, Finance & Operation</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-category">
+                <h3>Development Team</h3>
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="developer.jpg" alt="Developer">
+                        <p class="title">[Developer Name]</p>
+                        <p>Team Lead, SE</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="developer.jpg" alt="Developer">
+                        <p class="title">[Developer Name]</p>
+                        <p>Software Engineer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="developer.jpg" alt="Developer">
+                        <p class="title">[Developer Name]</p>
+                        <p>Software Engineer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="developer.jpg" alt="Developer">
+                        <p class="title">[Developer Name]</p>
+                        <p>Software Engineer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="developer.jpg" alt="Developer">
+                        <p class="title">[Developer Name]</p>
+                        <p>Software Engineer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="developer.jpg" alt="Developer">
+                        <p class="title">[Developer Name]</p>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-category">
+                <h3>Sales and Marketing Team</h3>
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Employee">
+                        <p class="title">[Employee Name]</p>
+                        <p>Team Lead</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Employee">
+                        <p class="title">[Employee Name]</p>
+                        <p>Sales Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Employee">
+                        <p class="title">[Employee Name]</p>
+                        <p>Sales Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Employee">
+                        <p class="title">[Employee Name]</p>
+                        <p>Sales Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Employee">
+                        <p class="title">[Employee Name]</p>
+                        <p>Sales Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Founder">
+                        <p class="title">[Founder Name]</p>
+                        <p>Marketing Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Founder">
+                        <p class="title">[Founder Name]</p>
+                        <p>Marketing Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="Employee.jpg" alt="Founder">
+                        <p class="title">[Founder Name]</p>
+                        <p>Marketing Officer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
